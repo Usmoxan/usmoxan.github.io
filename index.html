@@ -17,6 +17,8 @@
                 data-cfasync="false">(function (w, d) { var s = d.createElement('script'); s.src = '//cdn.adpushup.com/40046/adpushup.js'; s.type = 'text/javascript'; s.async = true; (d.getElementsByTagName('head')[0] || d.getElementsByTagName('body')[0]).appendChild(s); })(window, document);</script>
 </head>
 
+<!-- https://www.tutorialspoint.com/themes/easyui/gray/easyui.css -->
+
 <body class="body easyui-layout" id="cc" style="visibility:hidden;">
         <div id="loading">
                 <div class="loader"></div>
@@ -119,7 +121,7 @@
                         id="codebox" style="width:40%;">
                         <div title="Source Code" id="editor">/* Simple Hello, World! program */
 void main(){
-    print(&quot;Hello, World!&quot;);
+     print(&quot;Hello, World!&quot;);
 }
                         </div>
                         <div title="Help" id="help" data-options="icon:'fal fa-circle-question fa-lg'">
@@ -133,7 +135,7 @@ void main(){
                                         computer. So simply run a program and provide your program input (if any) from
                                         the terminal window available in the right side.</p>
                                 <h2>Keyboard Shortcuts</h2>
-                               
+
                                 <h2>Save Dart Project</h2>
                                 <p>You can save your Dart Project with us so that you can access this project later on.
                                         To save a project you will need to create a login Id with us. So before you save
@@ -149,14 +151,13 @@ void main(){
                 </div>
         </div>
         <div id="tab-tools" style="border-top:0px; border-right:0px;">
+                <a href="javascript:void(0)" id="beautify">&nbsp;<b>Format</b></a>
+                <span style="white-space:nowrap; " class="execute_space" id="space2">|</span>
+                
                 <a href="javascript:void(0)" id="execute" class="easyui-linkbutton"
-                        data-options="plain:true,iconCls:'fal fa-gears fa-lg'" style="white-space:nowrap;">&nbsp;<b>Run
-                                Code</b></a>
+                        data-options="plain:true,iconCls:'fal fa-gears fa-lg'" style="white-space:nowrap;">&nbsp;<b>Run</b></a>
                 <span style="white-space:nowrap;" class="execute_space" id="space1">|</span>
-                <a href="javascript:void(0)" id="beautify" class="easyui-linkbutton"
-                        data-options="plain:true,iconCls:'fal fa-display-code'"
-                        style="white-space:nowrap;">&nbsp;<b>Format code</b></a>
-                <span style="white-space:nowrap;" class="execute_space" id="space2">|</span>
+
         </div>
         <!-- CENTER STARTS -->
         <div id="center"
@@ -168,18 +169,7 @@ void main(){
                 </div>
         </div><!--CENTER ENDS -->
         <!--EAST STARTS -->
-        <div id="east" data-options="region:'east', title:'&nbsp;&nbsp;&nbsp;&nbsp;Advertisement', collapsible:false"
-                style="overflow: hidden; width: 122px">
-                <div id="d5686fb9-4489-48e0-9f5b-5691c7936f83" class="_ap_apex_ad">
-                        <script>
-                                var adpushup = window.adpushup = window.adpushup || {};
-                                adpushup.que = adpushup.que || [];
-                                adpushup.que.push(function () {
-                                        adpushup.triggerAd("d5686fb9-4489-48e0-9f5b-5691c7936f83");
-                                });
-                        </script>
-                </div>
-        </div>
+
         <!--EAST ENDS -->
         <div id="south"
                 data-options="region:'south',collapsible:true, split:true, tools:[{ iconCls:'icon-h-terminal', handler:function(){setTerminalMode('V')}}, {iconCls:'icon-clean', handler:function(){clearTerminal()}}]"
