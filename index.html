@@ -118,9 +118,10 @@
                 <div class="easyui-tabs" data-options="fit:true,border:false,tools:'#tab-tools',toolPosition:'left'"
                         id="codebox" style="width:40%;">
                         <div title="Source Code" id="editor">/* Simple Hello, World! program */
-                                void main(){
-                                print(&quot;Hello, World!&quot;);
-                                }</div>
+void main(){
+    print(&quot;Hello, World!&quot;);
+}
+                        </div>
                         <div title="Help" id="help" data-options="icon:'fal fa-circle-question fa-lg'">
                                 <h1>Online Dart Compiler (Dart VM v1.10.1)</h1>
                                 <p><b>Online Dart Compiler (Dart VM v1.10.1)</b> helps you to Edit, Run and Share your
@@ -132,118 +133,7 @@
                                         computer. So simply run a program and provide your program input (if any) from
                                         the terminal window available in the right side.</p>
                                 <h2>Keyboard Shortcuts</h2>
-                                <table id="machelp" style="width:100%;">
-                                        <tr>
-                                                <th>Shortcut</th>
-                                                <th>Description</th>
-                                        </tr>
-                                        <tr>
-                                                <td style="width:20%">&#8984; + Enter</td>
-                                                <td>Run the program</td>
-                                        </tr>
-                                        <tr>
-                                                <td style="width:20%">&#8984; + S</td>
-                                                <td>Save Project (Login Required)</td>
-                                        </tr>
-                                        <tr>
-                                                <td style="width:20%">&#8679; + &#8984; + S</td>
-                                                <td>Save As Project</td>
-                                        </tr>
-                                        <tr>
-                                                <td style="width:20%">&#8984; + P</td>
-                                                <td>New Project</td>
-                                        </tr>
-                                        <tr>
-                                                <td style="width:20%">&#8984; + G</td>
-                                                <td>Share Project</td>
-                                        </tr>
-                                        <tr>
-                                                <td style="width:20%">&#8984; + Z</td>
-                                                <td>Undo Editing</td>
-                                        </tr>
-                                        <tr>
-                                                <td style="width:20%">&#8984; + Y</td>
-                                                <td>Redo Editing</td>
-                                        </tr>
-                                        <tr>
-                                                <td style="width:20%">&#8984; + A</td>
-                                                <td>Select All Text</td>
-                                        </tr>
-                                        <tr>
-                                                <td style="width:20%">&#8984; + X</td>
-                                                <td>Cut Selected Text</td>
-                                        </tr>
-                                        <tr>
-                                                <td style="width:20%">&#8984; + C</td>
-                                                <td>Copy Selected Text</td>
-                                        </tr>
-                                        <tr>
-                                                <td style="width:20%">&#8984; + V</td>
-                                                <td>Paste Copied Text</td>
-                                        </tr>
-                                        <tr>
-                                                <td style="width:20%">&#8984; + F</td>
-                                                <td>Search Text</td>
-                                        </tr>
-                                        <tr>
-                                                <td style="width:20%">&#8984; + &#8997; + F</td>
-                                                <td>Replace Text</td>
-                                        </tr>
-                                </table>
-                                <table id="winhelp" style="width:100%;">
-                                        <tr>
-                                                <th>Shortcut</th>
-                                                <th>Description</th>
-                                        </tr>
-                                        <tr>
-                                                <td style="width:20%">Ctrl + Enter</td>
-                                                <td>Run the program</td>
-                                        </tr>
-                                        <tr>
-                                                <td style="width:20%">Ctrl + S</td>
-                                                <td>Save Project</td>
-                                        </tr>
-                                        <tr>
-                                                <td style="width:20%">Shift + Ctrl + S</td>
-                                                <td>Save As Project</td>
-                                        </tr>
-                                        <tr>
-                                                <td style="width:20%">Ctrl + G</td>
-                                                <td>Share Project</td>
-                                        </tr>
-                                        <tr>
-                                                <td style="width:20%">Ctrl + Z</td>
-                                                <td>Undo Editing</td>
-                                        </tr>
-                                        <tr>
-                                                <td style="width:20%">Ctrl + Y</td>
-                                                <td>Redo Editing</td>
-                                        </tr>
-                                        <tr>
-                                                <td style="width:20%">Ctrl + A</td>
-                                                <td>Select All Text</td>
-                                        </tr>
-                                        <tr>
-                                                <td style="width:20%">Ctrl + X</td>
-                                                <td>Cut Selected Text</td>
-                                        </tr>
-                                        <tr>
-                                                <td style="width:20%">Ctrl + C</td>
-                                                <td>Copy Selected Text</td>
-                                        </tr>
-                                        <tr>
-                                                <td style="width:20%">Ctrl + V</td>
-                                                <td>Paste Copied Text</td>
-                                        </tr>
-                                        <tr>
-                                                <td style="width:20%">Ctrl + F</td>
-                                                <td>Search Text</td>
-                                        </tr>
-                                        <tr>
-                                                <td style="width:20%">Ctrl + H</td>
-                                                <td>Replace Text</td>
-                                        </tr>
-                                </table>
+                               
                                 <h2>Save Dart Project</h2>
                                 <p>You can save your Dart Project with us so that you can access this project later on.
                                         To save a project you will need to create a login Id with us. So before you save
@@ -264,8 +154,8 @@
                                 Code</b></a>
                 <span style="white-space:nowrap;" class="execute_space" id="space1">|</span>
                 <a href="javascript:void(0)" id="beautify" class="easyui-linkbutton"
-                        data-options="plain:true,iconCls:'fal fa-display-code fa-lg'"
-                        style="white-space:nowrap;">&nbsp;<b>Beautify</b></a>
+                        data-options="plain:true,iconCls:'fal fa-display-code'"
+                        style="white-space:nowrap;">&nbsp;<b>Format code</b></a>
                 <span style="white-space:nowrap;" class="execute_space" id="space2">|</span>
         </div>
         <!-- CENTER STARTS -->
