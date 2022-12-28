@@ -1,83 +1,22 @@
 {
-    "items": [
-        {
-            "code": false,
-            "image_is": false,
-            "text_is": true,
-            "text": "*Introduction to Dart Programming Language*\n\nDart is the open-source programming language originally developed by *GOOGLE*. It is meant for both server side as well as the user side. The Dart SDK comes with its compiler – the Dart VM and a utility dart2js which is meant for generating Javascript equivalent of a Dart Script so that it can be run on those sites also which don’t support Dart. \n\nDart is Object-oriented language and is quite similar to that of Java Programming. Dart is extensively use to create single-page websites and web-applications. Best example of dart application is Gmail.\n\nYou can install Dart SDK from their official website or download the installer from this site.\n\nInstallation\n\nFor Windows OS: \n\nTo install dart in window system we will be using Chocolatey."
-        },
-        {
-            "code": true,
-            "image_is": false,
-            "text_is": false,
-            "title": "To install Dart:",
-            "code_path": "C:\\> choco install dart-sdk"
-        },
-        {
-            "code": true,
-            "image_is": false,
-            "text_is": false,
-            "title": "To Update Dart:",
-            "code_path": "C:\\> choco upgrade dart-sdk"
-        },
-        {
-            "code": true,
-            "image_is": false,
-            "text_is": false,
-            "title": " Then install the Dart SDK:",
-            "code_path": "$ sudo apt-get update\n$ sudo apt-get install dart"
-        },
-        {
-            "code": false,
-            "image_is": false,
-            "text_is": true,
-            "text": " Modify PATH for access to all Dart binaries\n\nAfter installing the SDK, add its bin directory to your PATH. For example, use the following command to change PATH in your active terminal session:"
-        },
-        {
-            "code": true,
-            "image_is": false,
-            "text_is": false,
-            "title": "Modify PATH for access to all Dart binaries",
-            "code_path": "$ export PATH=\"$PATH:/usr/lib/dart/bin\""
-        },
-        {
-            "code": false,
-            "image_is": false,
-            "text_is": true,
-            "text": "To change the PATH for future terminal sessions, use a command like this:"
-        },
-        {
-            "code": true,
-            "image_is": false,
-            "text_is": false,
-            "title": "Modify PATH for access to all Dart binaries",
-            "code_path": "$ echo 'export PATH=\"$PATH:/usr/lib/dart/bin\"' >> ~/.profile"
-        },
-        {
-            "code": false,
-            "image_is": false,
-            "text_is": true,
-            "text": "First Code in Dart: \nIn dart main() function is predefined method and acts as the entry point to the application. A dart script needs the main() method for execution of the code. The program code goes like this: \n "
-        },
-        {
-            "code": true,
-            "image_is": false,
-            "text_is": false,
-            "title": "Dart",
-            "code_path": "main() {\n    print(\"Welcome to GeeksForGeeks\");\n}"
-        },
-        {
-            "code": true,
-            "image_is": false,
-            "text_is": false,
-            "title": "Output",
-            "code_path": "Welcome to GeeksForGeeks"
-        },
-        {
-            "code": false,
-            "image_is": false,
-            "text_is": true,
-            "text": "The print() command is predefined function that prints the specific string or value to the standard input.\n\nExecution of program:\n\n1. Online Compiler: The online compiler which support Dart is DartPad.\n2. IDE: The IDEs which support Dart are WebStorm, Intellij, Eclipse, etc. Among them WebStorm from Jetbrains is available for Mac OS, Windows and Linux.\n3. The dart program can also be compile through terminal by executing the code dart file_name.dart."
-        }
-    ]
-}
+"items": [
+  {
+    "text_is": "true",
+    "code": "false",
+    "text": "Test matn",
+    "image_is": "false"
+  },
+  {
+    "text_is": "false",
+    "code": "true",
+    "code_path": "void main(){\nprint(\"555\");\n}",
+    "title": "code title",
+    "image_is": "false"
+  },
+  {
+    "text_is": "false",
+    "image": "img",
+    "code": "false",
+    "image_is": "true"
+  }
+]}
