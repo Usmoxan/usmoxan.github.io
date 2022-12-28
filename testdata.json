@@ -24,5 +24,11 @@
     "image": "https://imgv3.fotor.com/images/homepage-feature-card/Upload-an-image.jpg",
     "code": false,
     "image_is": true
+  },
+    {
+   "text_is": false,
+    "image": "https://letsenhance.io/static/b8eda2f8914d307d52f725199fb0c5e6/62e7b/MainBefore.jpg",
+    "code": false,
+    "image_is": true
   }
 ]}
