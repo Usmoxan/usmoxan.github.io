@@ -1,22 +1,22 @@
 {
 "items": [
   {
-    "text_is": "true",
-    "code": "false",
+    "text_is": true,
+    "code": false,
     "text": "Test matn",
-    "image_is": "false"
+    "image_is": false
   },
   {
-    "text_is": "false",
-    "code": "true",
+    "text_is": false,
+    "code": true,
     "code_path": "void main(){\nprint(\"555\");\n}",
     "title": "code title",
-    "image_is": "false"
+    "image_is": false
   },
   {
-    "text_is": "false",
+    "text_is": false,
     "image": "assets/developer-3d-icon.png",
-    "code": "false",
-    "image_is": "true"
+    "code": false,
+    "image_is": true
   }
 ]}
