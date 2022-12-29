@@ -1,34 +1,34 @@
 {
 "items": [
   {
-    "text_is": true,
-    "code": false,
+    "text_is": "true",
+    "code": "false",
     "text": "Test matn *Detailed usage* in the /Google Cloud Console/",
-    "image_is": false
+    "image_is": "false"
   },
   {
-    "text_is": false,
-    "code": true,
+    "text_is": "false",
+    "code": "true",
     "code_path": "void main(){\nprint(\"555\");\n}",
     "title": "code title",
-    "image_is": false
+    "image_is": "false"
   },
   {
-    "text_is": false,
+    "text_is": "false",
     "image": "assets/developer-3d-icon.png",
-    "code": false,
-    "image_is": true
+    "code": "false",
+    "image_is": "true"
   },
   {
-   "text_is": false,
+   "text_is": "false",
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png",
-    "code": false,
-    "image_is": true
+    "code": "false",
+    "image_is": "true"
   },
     {
-   "text_is": false,
+   "text_is": "false",
     "image": "https://letsenhance.io/static/b8eda2f8914d307d52f725199fb0c5e6/62e7b/MainBefore.jpg",
-    "code": false,
-    "image_is": true
+    "code": "false",
+    "image_is": "true"
   }
 ]}
