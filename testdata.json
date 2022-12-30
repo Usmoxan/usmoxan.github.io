@@ -9,8 +9,8 @@
   {
     "text_is": "false",
     "code": "true",
-    "code_path": "void main(){\nprint(\"555\");\n}",
-    "title": "code title",
+    "code_path": "main() { \n\n    print(\"Welcome to GeeksForGeeks\"); \n} ",
+    "title": "Dart",
     "image_is": "false"
   },
   {
