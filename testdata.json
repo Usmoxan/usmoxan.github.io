@@ -24,6 +24,7 @@
   },
   {
     "button_is" : "true",
+    "button_url" : "https://flutter.dev/",
     "button_text":"Yuklab olish",
    "text_is": "false",
 "code":"false", 
