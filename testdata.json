@@ -42,13 +42,13 @@
       "button_is": "false",
       "text_is": "true",
       "code": "false",
-      "text": "\n\nThe print() command is predefined function that prints the specific string or value to the standard input.\n\nExecution of program:\n\n1. *Online Compiler*: The online compiler which support Dart is Dart Pad.\n2. *IDE*: The IDEs which support Dart are WebStorm, Intellij, Eclipse, etc. Among them WebStorm from Jetbrains is available for Mac OS, Windows and Linux.\n1. The dart program can also be compile through terminal by executing the code dart *file_name.dart*.",
+      "text": "\n\nThe print() command is predefined function that prints the specific string or value to the standard input.\n\n*Execution of program:*\n\n1. *Online Compiler*: The online compiler which support Dart is Dart Pad.\n\n2. *IDE*: The IDEs which support Dart are WebStorm, Intellij, Eclipse, etc. Among them WebStorm from Jetbrains is available for Mac OS, Windows and Linux.\n\n1. The dart program can also be compile through terminal by executing the code dart *file_name.dart*.",
       "image_is": "false"
     },
     {
       "button_is": "true",
-      "button_url": "https://flutter.dev/",
-      "button_text": "Yuklab olish",
+      "button_url": "https://dartpad.dev/",
+      "button_text": "Online compiler Dart Pad",
       "text_is": "false",
       "code": "false",
       "image_is": "false"
