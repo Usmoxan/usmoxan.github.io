@@ -9,7 +9,7 @@
   {
     "text_is": "false",
     "code": "true",
-    "code_path": "main() { \n\n    print(\"Welcome to GeeksForGeeks\"); \n} ",
+    "code_path": "main() { \n    print(\"Welcome to GeeksForGeeks\"); \n} ",
     "title": "Dart",
     "image_is": "false"
   },
