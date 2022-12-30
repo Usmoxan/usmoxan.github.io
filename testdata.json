@@ -11,15 +11,23 @@
       "button_is": "false",
       "text_is": "false",
       "code": "true",
-      "code_path": "void main() { \n    print(\"Welcome to GeeksForGeeks\"); \n} ",
+      "code_path": "void main() { \n    print(\"Flutterni o'rganamiz\"); \n} ",
       "title": "Dart",
+      "image_is": "false"
+    },
+    {
+      "button_is": "false",
+      "text_is": "false",
+      "code": "true",
+      "code_path": "void main() { \n    print(\"Flutterni o'rganamiz\"); \n} ",
+      "title": "Output",
       "image_is": "false"
     },
     {
       "button_is": "false",
       "text_is": "true",
       "code": "false",
-      "text": "Output:\n\n~{backgroundColor:black;color:white}Welcome to GeeksForGeeks~\n\n\nThe print() command is predefined function that prints the specific string or value to the standard input.\n\nExecution of program:\n\n1. *Online Compiler*: The online compiler which support Dart is Dart Pad.\n2. *IDE*: The IDEs which support Dart are WebStorm, Intellij, Eclipse, etc. Among them WebStorm from Jetbrains is available for Mac OS, Windows and Linux.\n1. The dart program can also be compile through terminal by executing the code dart *file_name.dart*.",
+      "text": "\n\nThe print() command is predefined function that prints the specific string or value to the standard input.\n\nExecution of program:\n\n1. *Online Compiler*: The online compiler which support Dart is Dart Pad.\n2. *IDE*: The IDEs which support Dart are WebStorm, Intellij, Eclipse, etc. Among them WebStorm from Jetbrains is available for Mac OS, Windows and Linux.\n1. The dart program can also be compile through terminal by executing the code dart *file_name.dart*.",
       "image_is": "false"
     },
     {
