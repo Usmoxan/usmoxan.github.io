@@ -11,7 +11,7 @@
      "button_is" : "false",
     "text_is": "false",
     "code": "true",
-    "code_path": "main() { \n    print(\"Welcome to GeeksForGeeks\"); \n} ",
+    "code_path": "void main() { \n    print(\"Welcome to GeeksForGeeks\"); \n} ",
     "title": "Dart",
     "image_is": "false"
   },
