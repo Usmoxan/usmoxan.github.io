@@ -19,7 +19,7 @@
       "button_is": "false",
       "text_is": "true",
       "code": "false",
-      "text": "*First Code in Dart:*\nIn dart main() function is predefined method and acts as the entry point to the application. A dart script needs the main() method for execution of the code. The program code goes like this:",
+      "text": "*First Code in Dart:*\n\nIn dart main() function is predefined method and acts as the entry point to the application. A dart script needs the main() method for execution of the code. The program code goes like this:",
       "image_is": "false"
     },
     {
@@ -52,13 +52,6 @@
       "text_is": "false",
       "code": "false",
       "image_is": "false"
-    },
-    {
-      "button_is": "false",
-      "text_is": "false",
-      "code": "false",
-      "image_is": "true",
-      "image": "https://raw.githubusercontent.com/fluttercommunity/flutter_downloader/master/screenshot/add_sqlite_2.png"
     }
   ]
 }
